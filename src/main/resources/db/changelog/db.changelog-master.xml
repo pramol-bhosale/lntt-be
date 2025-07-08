@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+ <changeSet id="1" author="Pradip">
+     <sqlFile path="ddl/users-1.0.sql" relativeToChangelogFile="true"/>
+     <sqlFile path="ddl/user_attributes-1.0.sql" relativeToChangelogFile="true"/>
+     <sqlFile path="ddl/activities-1.0.sql" relativeToChangelogFile="true"/>
+     <sqlFile path="ddl/schedules-1.0.sql" relativeToChangelogFile="true"/>
+ </changeSet>
+
+    <changeSet id="2" author="Pradip">
+        <sqlFile path="initial-data/activities-1.0.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    <changeSet id="3" author="Pradip">
+        <sqlFile path="ddl/users-2.0.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+</databaseChangeLog>

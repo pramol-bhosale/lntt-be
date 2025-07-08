@@ -1,0 +1,12 @@
+insert into public.activities (name) values('Lateral Calendar Training Full Day'),
+('Blended Learning'),
+('Lateral Calendar Training Half Day'),
+('Adhoc Training'),
+('Content Development'),
+('Public Holiday'),
+('Leave'),
+('Byte sized'),
+('Evaluation'),
+('Skill Upgrade'),
+('Program and Session Planning'),
+('Others');
